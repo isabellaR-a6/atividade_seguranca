@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Segurança (DO WHILE)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <h1> Login</h1>
+
+    <div id="escodidin">
+      <input id="login" type="text" placeholder="Usuário">
+      <input id="senha" type="password" placeholder="Senha">
+
+      <!-- chama a função do JS -->
+      <button onclick="tentarLogin()">Entrar</button>
+
+      <div id="mesg"></div>
+    </div>
+
+    <div id="acessook">
+      <h2> Acesso liberado</h2>
+      <p id="acessouse"></p>
+      <button onclick="resetar()">Sair</button>
+    </div>
+    <div id="acessobloq">
+  <h2> SISTEMA BLOQUEADO</h2>
+  <p>Procure o suporte</p>
+</div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>

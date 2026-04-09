@@ -1,0 +1,114 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fundo */
+body {
+  font-family: 'Courier New', monospace;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ff9c;
+}
+
+/* card */
+.card {
+  background: rgba(2, 6, 23, 0.9);
+  border: 1px solid #00ff9c;
+  border-radius: 12px;
+  padding: 30px;
+  width: 320px;
+  box-shadow: 0 0 20px #00ff9c33;
+  text-align: center;
+}
+
+/* título */
+.card h1 {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #00ff9c;
+}
+
+/* inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #00ff9c55;
+  border-radius: 6px;
+  color: #00ff9c;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #00ff9c;
+  box-shadow: 0 0 8px #00ff9c66;
+}
+
+/* botão */
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #00ff9c;
+  border-radius: 6px;
+  color: #00ff9c;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: #00ff9c;
+  color: #020617;
+  box-shadow: 0 0 10px #00ff9c;
+}
+
+/* mensagem */
+#mesg {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  display: none;
+  background: #220000;
+  border: 1px solid #ff4d4d;
+  color: #ff4d4d;
+}
+
+/* sucesso */
+#acessook {
+  display: none;
+}
+
+#acessook h2 {
+  color: #00ff9c;
+  margin-bottom: 10px;
+}
+
+#acessouse {
+  margin-bottom: 10px;
+  color: #00ff9caa;
+}
+#acessobloq {
+  display: none;
+  text-align: center;
+}
+
+#acessobloq h2 {
+  color: #ff4d4d;
+  margin-bottom: 10px;
+}
+
+#acessobloq p {
+  color: #ffaaaa;
+  margin-bottom: 15px;
+}
