@@ -52,12 +52,15 @@ Imagem:
 --
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/bd94e08d-e4ba-4069-b130-ffb358aaff84" />
+
 *Interface de login*
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/35b35adc-fca3-494e-906e-b6e069c13d29" />
+
 *Interface de usuario liberado*
 
 <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/486c54ab-564f-4f50-8af8-245c22c093f8" />
+
 *Interface de usuario bloqueado*
 
 Objetivo
@@ -70,7 +73,7 @@ Este projeto tem como objetivo demonstrar:
 - Simulação básica de autenticação
 - Interação entre HTML, CSS e JavaScript
   
---
+
 Autoria
 -
 Por: Isabella Radael
